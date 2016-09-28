@@ -1,0 +1,15 @@
+<div class="perList">
+<div id="form_btn">
+         <button ng-click="">FORM</button>
+        </div>
+<div ng-repeat='person in perList'>
+    <div class="imgContainer">
+    <label><img class="images" ng-src='{{person.imgPat}}'height='400'/></label>
+        <div class="imgDesc">
+        <label>{{person.firstname}}
+            {{person.lastname}}
+            </label>
+        </div>
+        
+    </div>
+         </div>
